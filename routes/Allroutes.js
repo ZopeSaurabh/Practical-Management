@@ -41,7 +41,7 @@ router.get("/practicals/get", getAllPracticals);
 router.post("/practicals/enroll", enrollStudentInPractical);
 
 router.get("/",(req,res)=>{
-  res.json({Message:"ME Saurav CHUTYA aahe MAzi tumhi ghanda mara"});
+  res.json({Message:"Hey This my Practical managment System"});
 });
 
 export default router;
